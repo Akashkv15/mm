@@ -1,0 +1,215 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.custom-btn {
+  background-color: yellow;
+  color: black; 
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+}
+.nav{
+  color: blue;
+}
+
+.cutom-home{
+  color: white;
+   font-family: "Playwrite US Modern", cursive;
+}
+.navbar-font {
+  font-family: "Playwrite US Modern", cursive;
+  font-weight: bold;                  
+  font-size: 16px;                   
+  letter-spacing: 0.5px;             
+}
+.hero-container {
+  position: relative;   
+  text-align: center;
+  color: white;
+  overflow: hidden;
+  top: 185px;
+  /* height: 1500px; */
+}
+.text-dark-blue {
+  color:  "#05155dff"
+}
+.hero-text {
+  position: absolute;
+  top: 28%;            
+  left: 50%;           
+  transform: translate(-50%, -50%); 
+  font-family: "Playwrite US Modern", cursive;
+  font-weight: bold;
+  
+}
+.hero-text h1 {
+  /* font-size: 48px; adjust for large screens */
+  font-weight:bold;
+  
+}
+.car-running-container{
+  /* width: 450px; */
+  height: 500px;
+  position: absolute;
+  top: 55%;            
+  left: 40%;           
+  transform: translateX( -50%); 
+  animation: carMove 3s ease-in-out infinite alternate; /* oscillate */
+  bottom: 20px;
+  overflow: hidden;
+}
+@keyframes carMove {
+  0% {
+    transform: translateX(-55%);  /* slightly left */
+  }
+  50% {
+    transform: translateX(-50%);  /* center */
+  }
+  100% {
+    transform: translateX(-45%);  /* slightly right */
+  }
+}
+
+@media (max-width: 422px) {
+  .card-body{
+    display: flex;
+    flex-direction: row;
+  }
+  .car-running-container img {
+    /* width: 270px;  smaller car on mobile */
+    height: 80px;
+  }
+ .hero-text {
+  top: 30%;            
+  left: 50%; 
+  transform: translate(-50%, -50%); /* keep centered */
+  font-size: 12px; /* use font-size, not font: size */
+}
+.hero-text h1 {
+  font-size: 18px; /* adjust for large screens */
+}
+.hero-container{
+  top: 250px;
+}
+}
+.custom-btn1 {
+  background-color: yellow;
+  color: black; 
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  margin-left:0px;
+  margin-top:10px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.custom-btn1:hover {
+  background-color: #0056b3; /* darker blue */
+  transform: scale(1.1);
+  box-shadow: 0 0 15px rgba(0, 123, 255, 0.6);
+  color:white;
+}
+.white h1{
+  color: black;
+}
+.up-text h1,h6{
+   font-family: "Playwrite US Modern", cursive;
+}
+.carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    background-color: rgb(16, 0, 0); /* your preferred button color */
+    border-radius: 50%;    /* make buttons round */
+    width: 35px;
+    height: 35px;
+  }
+  .carousel-control-prev,
+  .carousel-control-next {
+    width: 50px;           /* enlarge clickable area */
+  }
+  @media (max-width: 680px) {
+  .carousel-wrapper {
+    display: flex;
+    flex-direction: column; /* stack cards vertically */
+    gap: 10px;              /* optional spacing */
+  }
+  }
+  .div1{
+    display: flex;
+    justify-content:center;
+    margin-top: 50px;
+    
+  }
+  .container h1{
+    font-family: "Playwrite US Modern", cursive;
+    
+  }
+  .custom-btn2 {
+  background-color: yellow;
+  /* color: "#05155dff" ; */
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  margin-left:0px;
+  margin-top:10px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+   font-family: "Playwrite US Modern", cursive;
+}
+.custom-btn2:hover {
+  background-color: #0056b3; /* darker blue */
+  transform: scale(1.1);
+  box-shadow: 0 0 15px rgba(0, 123, 255, 0.6);
+  color:white;
+}
+  @media (max-width: 965px) {
+  .div1{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+  }
+  .abc{
+    margin-top: -100px;
+    
+  }
+  
+}
+@media (max-width: 615px) {
+  
+  .abc{
+    margin-top: -190px;
+    
+  }
+  
+}
+.pq{
+  font-family: "Playwrite US Modern", cursive;
+}
+ @media (max-width: 465px) {
+  .abc{
+    margin-top: -250px;
+  }
+  .pq{
+    margin-top: -40px;
+    font-size: 20px;
+  }
+  .av{
+    margin-top: 500px;
+  }
+}
+.abc{
+  font-family: "Playwrite US Modern", cursive;
+}
+.abc h1{
+  font-size: 45px;
+}
+.abc h5{
+  font-size: 22px;
+}
+.av{
+  font-family: "Playwrite US Modern", cursive;
+}
+.div1{
+  font-family: "Playwrite US Modern", cursive;
+}
