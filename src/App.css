@@ -93,9 +93,9 @@ body {
   top: 10px;
 }
 }
-@media (max-width: 376px) {
+@media (max-width: 375px) {
  .car-running-container{
-  top: 52%;
+  top: 42%;
  }
 }
 .custom-btn1 {
