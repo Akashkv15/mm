@@ -6,8 +6,8 @@ function Mainbodysectionfour() {
   return (
     <div style={{marginTop:'10px'}}>
         <div className="hero-container" style={{position:"relative",overflow:"hidden"}}>
-            <Image src={bg} style={{height:'600px'}}fluid />
-            <div className="abc"style={{position:"absolute",top:"-5%",left:"50%",transform:"translate(-50%, 50%)",color:"white"}}>
+            <Image src={bg} style={{height:'650px'}}fluid />
+            <div className="abc"style={{position:"absolute",top:"-2%",left:"50%",transform:"translate(-50%, 50%)",color:"white"}}>
             <h1>What Customers Say</h1>
             <h5>"Let's start your journey with us your dream will true.Lorem ipsum </h5>
             <h5>dolor sit amet consectetur adipisicing elit. samus ducimus magni aliquam </h5>

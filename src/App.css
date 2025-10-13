@@ -93,9 +93,9 @@ body {
   top: 10px;
 }
 }
-@media (max-width: 375px) {
+@media (max-width: 376px) {
  .car-running-container{
-  top: 70%;
+  top: 72%;
  }
 }
 .custom-btn1 {
@@ -221,5 +221,18 @@ body {
 @media (max-width: 745px) {
   .hero-container{
     top: 350px;
+  }
+  .car-running-container{
+    top: 72%;
+  }
+}
+.basebody {
+  flex-direction: column; /* default for all small & medium screens (up to 1024px) */
+}
+
+/* ✅ Switch to row layout for desktops only */
+@media (min-width: 1025px) {
+  .basebody {
+    flex-direction: row;
   }
 }
