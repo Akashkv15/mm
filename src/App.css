@@ -28,7 +28,7 @@ body {
   text-align: center;
   color: white;
   overflow: hidden;
-  top: 185px;
+  top: 285px;
   /* height: 1500px; */
 }
 .text-dark-blue {
@@ -52,7 +52,7 @@ body {
   /* width: 450px; */
   height: 500px;
   position: absolute;
-  top: 55%;            
+  top: 65%;            
   left: 40%;           
   transform: translateX( -50%); 
   animation: carMove 3s ease-in-out infinite alternate; /* oscillate */
@@ -90,8 +90,13 @@ body {
   font-size: 18px; /* adjust for large screens */
 }
 .hero-container{
-  top: 250px;
+  top: 10px;
 }
+}
+@media (max-width: 375px) {
+ .car-running-container{
+  top: 70%;
+ }
 }
 .custom-btn1 {
   background-color: yellow;
@@ -212,4 +217,9 @@ body {
 }
 .div1{
   font-family: "Playwrite US Modern", cursive;
+}
+@media (max-width: 745px) {
+  .hero-container{
+    top: 350px;
+  }
 }

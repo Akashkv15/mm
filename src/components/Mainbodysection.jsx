@@ -6,7 +6,7 @@ import '../App.css';
 function Mainbodysection() {
   return( <>
   <div className="hero-container"><Image src={hero}fluid /></div>
-   <div className="hero-text">
+   <div className="hero-text" style={{zIndex:'-2'}}>
         <h1 className="animate__animated animate__fadeInUp " style={{animationDelay:"0.1s",color: "#05155dff" }}>Lifelong memories just a</h1>
         <h1 className="animate__animated animate__fadeInUp" style={{animationDelay:"0.1s",color: "#05155dff"}}>few seconds away</h1>
         <h6 className="animate__animated animate__fadeInUp" style={{animationDelay:"0.1s",color: "#05155dff"}}>Let's start your journey with us,your dream will come true</h6>
