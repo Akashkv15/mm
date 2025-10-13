@@ -10,7 +10,7 @@ function Mainbodysectionthree() {
         <div className='hero-container'style={{}}>
 <Image src={about}fluid />
         </div>
-        <div className=''style={{marginTop:'220px',marginLeft:'50px'}}>
+        <div className=''style={{marginTop:'320px',marginLeft:'50px'}}>
  <Card style={{ 
     border:'none'}}>
       

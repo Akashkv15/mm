@@ -11,7 +11,7 @@ function Mainbodysectionfive() {
         </div>
         <div className="xy d-flex flex-column flex-md-row justify-content-center align-items-center gap-3 mt-5">
                 <div>
-                     <Card style={{border:"none"}}>
+                     <Card style={{border:"none",marginTop:'100px'}}>
                         <Card.Body className='d-flex flex-column '>
                             <h6 style={{color:'#05155dff',fontSize:'20px',marginBottom:"20px"}}><span style={{color:'blue'}}>+</span>Starts the automated process</h6>
                             <h6 style={{color:'#05155dff',fontSize:'20px',marginBottom:"20px"}}><span style={{color:'blue'}}>+</span>The automated process starts</h6>
@@ -20,7 +20,7 @@ function Mainbodysectionfive() {
                         </Card.Body>
                     </Card>
                 </div>
-                <div>
+                <div style={{marginTop:'100px'}}>
                      <Image src={about2}fluid />
                 </div>
         </div>
